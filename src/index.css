@@ -11,3 +11,13 @@
   height: 64px;
   width: 64px;
 }
+
+#glossy {
+  /* border: 1px solid yellow; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  backdrop-filter: blur(30px);
+  mask-image: linear-gradient(rgb(0, 0, 0) 0% ,rgb(0, 0, 0, .8) 60%, rgba(0, 0, 0, 0) 100%);
+}
