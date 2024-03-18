@@ -1,6 +1,7 @@
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import Tools from "./components/Tools"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Nav/>
       <Hero/>
       <Tools/>
+      <Footer/>
     </>
   )
 }

@@ -6,3 +6,8 @@
   font-family: "Poppins", sans-serif;
   /* border: 1px solid red; */
 }
+
+.social {
+  height: 64px;
+  width: 64px;
+}
