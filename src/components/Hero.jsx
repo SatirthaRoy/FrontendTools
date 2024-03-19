@@ -11,26 +11,34 @@ const Hero = () => {
   const title = useRef();
 
   useGSAP(()=> {
-    gsap.to('.title', {
+    let bodyTop = document.body.getBoundingClientRect().top;
+    let titleText = document.querySelector('.title-text');
+    let eltop = titleText.getBoundingClientRect().top;
+    let d = (eltop - bodyTop);
+    console.log(d);
+    gsap.set( '.title-text' , {y: 250})
+    gsap.to( '.title-text', {duration: 1.5, y: 0, stagger: 0.1, ease: 'power4.out'})
+    const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: '.title',
-        start: 'top 230px',
-        endTrigger: '.tools',
-        end: 'top center',
+        trigger: title.current,
+        start: ()=> `top ${d}px`,
+        endTrigger: title.current,
+        end: '+=1000',
         scrub: 1,
         pin: true,
         // markers: true
-      },
-      duration: 2,
-      opacity: 0,
-      scale: 0})
-  })
+      }
+    })
+    tl.to('.title-text', { y: 250 })
+
+
+  }, {scope: [title]})
 
   return (
     <header className='mt-24 h-screen'>
       <div ref={title} className='title'>
-        <h1 className='text-[#EAE1ED] text-6xl md:text-9xl text-center font-semibold uppercase'>welcome to</h1>
-        <h1 className='text-[#EAE1ED] text-6xl md:text-9xl text-center font-semibold uppercase'>frontend Tools</h1>
+        <div className='clips'><h1 className='title-text text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>welcome to</h1></div>
+        <div className='clips'><h1 className='title-text text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>frontend Tools</h1></div>
       </div>
     </header>
   )
