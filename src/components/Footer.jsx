@@ -1,7 +1,7 @@
 import React from 'react'
-import linkedin from '../assets/SVGS/LinkedIn Circledlinked in.svg'
-import facebook from '../assets/SVGS/Facebookfacebook.svg'
-import github from '../assets/SVGS/GitHubgit.svg'
+
+import { FaFacebook ,FaGithub ,FaLinkedin  } from "react-icons/fa";
+
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap/gsap-core'
 import ScrollTrigger from 'gsap/ScrollTrigger'
@@ -14,8 +14,7 @@ const Footer = () => {
       scrollTrigger: {
         trigger: 'footer',
         start: 'center bottom',
-        scrub: 1,
-        markers: true
+        scrub: 1
       },
       scale: 4
     })
@@ -24,8 +23,7 @@ const Footer = () => {
       scrollTrigger: {
         trigger: 'footer',
         start: 'center bottom',
-        scrub: 1,
-        markers: true
+        scrub: 1
       },
       color: 'black'
     })
@@ -40,9 +38,9 @@ const Footer = () => {
       <div className='flex flex-col justify-center items-center gap-3'>
         <h2 className='black font-normal text-[#ECE4EF] text-lg md:text-2xl text-center'>SOCIALS</h2>
         <div className='flex gap-3 md:gap-6'>
-          <a href="https://www.facebook.com/satirtha.royhimu/" target='_blank'><img src={facebook} alt="" className='size-10 md:size-16'/></a>
-          <a href="https://www.facebook.com/satirtha.royhimu/" target='_blank'><img src={github} alt="" className='size-10 md:size-16'/></a>
-          <a href="https://www.facebook.com/satirtha.royhimu/" target='_blank'><img src={linkedin} alt="" className='size-10 md:size-16'/></a>
+          <a href="https://www.facebook.com/satirtha.royhimu/" target='_blank'><FaFacebook className='black size-10 md:size-16 text-white'/></a>
+          <a href="https://www.facebook.com/satirtha.royhimu/" target='_blank'><FaGithub className='black size-10 md:size-16 text-white'/></a>
+          <a href="https://www.facebook.com/satirtha.royhimu/" target='_blank'><FaLinkedin className='black size-10 md:size-16 text-white'/></a>
         </div>
       </div>
     </footer>
