@@ -25,8 +25,7 @@ const Hero = () => {
         endTrigger: title.current,
         end: '+=1000',
         scrub: 1,
-        pin: true,
-        // markers: true
+        pin: true
       }
     })
     tl.to('.title-text', { y: 250 })
@@ -36,9 +35,9 @@ const Hero = () => {
 
   return (
     <header className='mt-24 h-screen'>
-      <div ref={title} className='title'>
+      <div ref={title} className='title z-0'>
         <div className='clips'><h1 className='title-text text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>welcome to</h1></div>
-        <div className='clips'><h1 className='title-text text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>frontend Tools</h1></div>
+        <div className='clips'><h1 className='title-text title-bottom text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>frontend Tools</h1></div>
       </div>
     </header>
   )

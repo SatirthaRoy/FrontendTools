@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import adobe from '../assets/SVGS/adobe colors.svg'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap/gsap-core'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
+gsap.registerPlugin(useGSAP,ScrollTrigger);
 
 const buttons = [
   {
@@ -39,8 +43,14 @@ const buttons = [
 
 
 const Tool = () => {
+  
+
+  useGSAP(()=> {
+
+  })
+
   return (
-    <div className='border-white border space-y-20 p-7'>
+    <div className='tool border-white border space-y-20 p-7'>
       <div className='px-8 py-3 md:px-12 md:py-5'>
         <img src={adobe} alt="" className='w-full'/>
       </div>
@@ -55,6 +65,7 @@ const Tool = () => {
 
 
 const Tools = () => {
+
   return (
     <div className='tools uppercase gap-10 w-11/12 mx-auto flex flex-col justify-center items-center'>
       <h1 className='text-[#ECE4EF] font-semibold text-4xl md:text-7xl text-center'>Tools</h1>
@@ -62,11 +73,11 @@ const Tools = () => {
 
       <div className='flex flex-wrap justify-center items-center gap-6 w-11/12'>
         {buttons.map((button,i)=> {
-          return <button key={i} className='px-4 py-2 md:py-3 md:px-8 border-white border text-[#FEF8F8] text-base md:text-xl font-semibold'>{button.category}</button>
+          return <button key={i} className='z-[5] px-4 py-2 md:py-3 md:px-8 border-white border text-[#FEF8F8] text-base md:text-xl font-semibold'>{button.category}</button>
         })}
       </div>
 
-      <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 w-full mt-14'>
+      <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 w-full mt-14 z-[5]'>
         <Tool/>
         <Tool/>
         <Tool/>
