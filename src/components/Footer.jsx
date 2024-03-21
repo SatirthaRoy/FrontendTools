@@ -16,7 +16,8 @@ const Footer = () => {
         start: 'center bottom',
         scrub: 1
       },
-      scale: 4
+      scale: 4,
+      filter: 'blur(100px)'
     })
 
     gsap.to('.black', {
@@ -25,7 +26,7 @@ const Footer = () => {
         start: 'center bottom',
         scrub: 1
       },
-      color: 'black'
+      color: '#000000'
     })
   })
 

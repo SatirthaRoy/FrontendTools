@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Recipe 1",
+    "img": "https://via.placeholder.com/300x200",
+    "category": "Breakfast",
+    "link": "https://example.com/recipe1"
+  },
+  {
+    "id": 2,
+    "name": "Recipe 2",
+    "img": "https://via.placeholder.com/300x200",
+    "category": "Lunch",
+    "link": "https://example.com/recipe2"
+  },
+  {
+    "id": 3,
+    "name": "Recipe 3",
+    "img": "https://via.placeholder.com/300x200",
+    "category": "Dinner",
+    "link": "https://example.com/recipe3"
+  },
+  {
+    "id": 4,
+    "name": "Recipe 4",
+    "img": "https://via.placeholder.com/300x200",
+    "category": "Dessert",
+    "link": "https://example.com/recipe4"
+  }
+]

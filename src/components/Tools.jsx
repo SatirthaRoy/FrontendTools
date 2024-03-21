@@ -36,6 +36,10 @@ const buttons = [
     show: 'tools'
   },
   {
+    category: 'UI',
+    show: 'ui'
+  },
+  {
     category: 'YT CHANNELS',
     show: 'yt-channels'
   }
@@ -74,9 +78,9 @@ const Tool = () => {
       </div>
 
       <div className='space-y-6'>
-        <h2 ref={h2} className='text-[#ECE4EF] font-semibold text-xl md:text-2xl'>ADOBE COLORS</h2>
+        <h2 ref={h2} className='text-[#ECE4EF] uppercase font-semibold text-xl md:text-2xl'>ADOBE COLORS</h2>
         <div className='flex justify-between items-center'>
-          <h3 ref={h3} className='bg-[#F9F7FA] text-[#272328] font-normal text-sm md:text-base px-4 inline-block'>COLOR</h3>
+          <h3 ref={h3} className='bg-[#F9F7FA] text-[#272328] uppercase font-normal text-sm md:text-base px-4 inline-block'>COLOR</h3>
         </div>
       </div>
     </div>
@@ -100,7 +104,8 @@ const Tools = () => {
       stagger: .05
     });
 
-  })
+  });
+
 
   return (
     <div className='tools uppercase gap-10 w-11/12 mx-auto flex flex-col justify-center items-center'>
@@ -115,7 +120,7 @@ const Tools = () => {
 
       <div className='flex flex-wrap justify-center items-center gap-6 w-11/12'>
         {buttons.map((button,i)=> {
-          return <button key={i} className='z-[5] px-4 py-2 md:py-3 md:px-8 border-white border text-[#FEF8F8] text-base md:text-xl font-semibold'>{button.category}</button>
+          return <button key={i} className='z-[5] transition-all hover:scale-105 px-4 py-2 md:py-3 md:px-8 border-white border text-[#FEF8F8] text-base md:text-xl font-semibold'>{button.category}</button>
         })}
       </div>
 

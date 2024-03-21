@@ -35,26 +35,26 @@ function App() {
 
     // mouse follower
     document.body.addEventListener('mouseenter', ()=> {
-      gsap.to('.mf', {scale: 1})
+      gsap.to('.mf', {opacity: 1})
     });
 
     document.body.addEventListener('mouseleave', ()=> {
-      gsap.to('.mf', {scale: 0})
+      gsap.to('.mf', {opacity: 0})
     });
 
     document.body.addEventListener('mousemove', (e)=> {
-      gsap.to('.mf', { x: e.clientX, y: e.clientY, duration: .5 })
+      gsap.to('.mf', { x: `${e.clientX}px`, y: `${e.clientY}px`, duration: .3 });
     });
   })
 
   return (
     <>
-      <div className="mf fixed scale-0 rounded-full size-5 bg-white z-30 pointer-events-none flex items-center justify-center">
+      <div className="mf fixed opacity-0 hidden rounded-full size-5 bg-white z-30 pointer-events-none lg:flex justify-center items-center">
         <div className="arrow scale-0 text-base"><MdArrowOutward/></div>
       </div>
       <div className="top-0 fixed w-screen h-screen flex flex-col justify-center items-center -z-10">
         <div className="ball size-[360px] bg-white rounded-full blur-[200px]"> manger beta</div>
-        <div className="circle size-[400px] md:size-[560px] bg-white rounded-full blur-[250px]"> manger beta</div>
+        <div className="circle size-[350px] md:size-[560px] bg-white rounded-full blur-[150px] md:blur-[250px]"> manger beta</div>
       </div>
       <Nav/>
       <Hero/>
