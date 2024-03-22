@@ -106,7 +106,7 @@ const Tools = () => {
   console.log(tools);
 
   return (
-    <div className='tools uppercase gap-10 w-11/12 mx-auto flex flex-col justify-center items-center'>
+    <div className='tools uppercase gap-10 max-w-[2000px] w-11/12 mx-auto flex flex-col justify-center items-center'>
       <div className='chars flex text-[#ECE4EF] font-semibold text-4xl md:text-7xl text-center *:translate-y-20'>
         <div className='char'>T</div>
         <div className='char'>O</div>

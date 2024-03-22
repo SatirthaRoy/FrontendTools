@@ -46,7 +46,7 @@ const Nav = () => {
   return (
     <>
       <div id='glossy' className='z-10'></div>
-      <nav className='flex justify-between items-center mt-3 md:mt-6 py-3 md:py-6 w-11/12 mx-auto sticky top-0 z-20'>
+      <nav className='flex justify-between items-center mt-3 md:mt-6 py-3 md:py-6 w-11/12 max-w-[2000pxs] mx-auto sticky top-0 z-20'>
         <a href="https://toolsfrontend.netlify.app/" className='cursor-pointer'><img src={frontend} alt="" className='logo w-24 md:w-auto'/></a>
         <h3 onClick={handleClick} onMouseEnter={handleEnter} onMouseLeave={handleLeave} className='nav-tool text-[#F9F7FA] font-semibold text-sm md:text-xl cursor-pointer'>TOOLS
           <div className='line bg-white h-1 w-full origin-left scale-x-0'></div>

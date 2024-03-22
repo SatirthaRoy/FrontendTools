@@ -34,8 +34,8 @@ const Hero = () => {
   }, {scope: [title]})
 
   return (
-    <header className='mt-24 h-screen'>
-      <div ref={title} className='title z-0'>
+    <header className='mt-24 mx-auto max-w-[2000px] h-screen'>
+      <div ref={title} className='titlez-0'>
         <div className='clips'><h1 className='title-text text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>welcome to</h1></div>
         <div className='clips'><h1 className='title-text title-bottom text-[#EAE1ED] text-6xl md:text-7xl lg:text-9xl text-center font-semibold uppercase '>frontend Tools</h1></div>
       </div>
