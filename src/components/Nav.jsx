@@ -19,11 +19,11 @@ const Nav = () => {
 
   const handleEnter = () => {
     gsap.to('.mf', {scale:0});
-    gsap.to('.line', {scaleX: 1, duration: .4, ease: 'power3.inOut'});
+    gsap.to('.line', {scaleX: 1, duration: .2, ease: 'power3.inOut'});
   }
   const handleLeave = () => {
     gsap.to('.mf', {scale:1});
-    gsap.to('.line', {scaleX: 0, duration: .4, ease: 'power3.inOut'});
+    gsap.to('.line', {scaleX: 0, duration: .2, ease: 'power3.inOut'});
   }
 
   const handleClick = () => {

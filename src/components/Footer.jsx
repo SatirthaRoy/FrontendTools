@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { FaFacebook ,FaGithub ,FaLinkedin  } from "react-icons/fa";
 
@@ -9,6 +8,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 
 const Footer = () => {
+
   useGSAP(()=> {
     gsap.to('.circle', {
       scrollTrigger: {
@@ -17,7 +17,7 @@ const Footer = () => {
         scrub: 1
       },
       scale: 4,
-      filter: 'blur(100px)'
+      filter: 'blur(100px)',
     })
 
     gsap.to('.black', {

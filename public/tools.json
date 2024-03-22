@@ -1,30 +1,226 @@
 [
   {
-    "id": 1,
-    "name": "Recipe 1",
-    "img": "https://via.placeholder.com/300x200",
-    "category": "Breakfast",
-    "link": "https://example.com/recipe1"
+      "id": "1",
+      "name": "Type scale",
+      "link": "https://typescale.com/",
+      "img_link": "https://svgshare.com/i/14_V.svg",
+      "category": "Tool"
   },
   {
-    "id": 2,
-    "name": "Recipe 2",
-    "img": "https://via.placeholder.com/300x200",
-    "category": "Lunch",
-    "link": "https://example.com/recipe2"
+      "id": "2",
+      "name": "Realtime colors",
+      "link": "https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Poppins-Poppins",
+      "img_link": "https://svgshare.com/i/14bE.svg",
+      "category": "Color"
   },
   {
-    "id": 3,
-    "name": "Recipe 3",
-    "img": "https://via.placeholder.com/300x200",
-    "category": "Dinner",
-    "link": "https://example.com/recipe3"
+      "id": "3",
+      "name": "Muzli colors ",
+      "link": "https://colors.muz.li/",
+      "img_link": "https://svgshare.com/i/14aj.svg",
+      "category": "Color"
   },
   {
-    "id": 4,
-    "name": "Recipe 4",
-    "img": "https://via.placeholder.com/300x200",
-    "category": "Dessert",
-    "link": "https://example.com/recipe4"
+      "id": "4",
+      "name": "contrast checker",
+      "link": "https://coolors.co/contrast-checker/112a46-acc8e5",
+      "img_link": "https://svgshare.com/i/14ak.svg",
+      "category": "Color"
+  },
+  {
+      "id": "5",
+      "name": "tiny png",
+      "link": "https://tinypng.com/",
+      "img_link": "https://svgshare.com/i/14aM.svg",
+      "category": "Tool"
+  },
+  {
+      "id": "6",
+      "name": "relume",
+      "link": "https://www.relume.io/",
+      "img_link": "https://svgshare.com/i/14Ze.svg",
+      "category": "AI"
+  },
+  {
+      "id": "7",
+      "name": "Lucid chart",
+      "link": "https://www.lucidchart.com/pages/landing?utm_source=google&utm_medium=cpc&utm_campaign=_chart_en_tier3_mixed_search_brand_exact_&km_CPC_CampaignId=1484560207&km_CPC_AdGroupID=60168114191&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=442433234360&km_CPC_TargetID=kwd-33511936169&km_CPC_Country=9074023&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gad_source=1&gclid=Cj0KCQjwwMqvBhCtARIsAIXsZpYGkRLQbr9jqRNMPFuo5F_xSs8pRLnvpgglMva69dtTIPAPsOXZXmQaAvWxEALw_wcB",
+      "img_link": "https://svgshare.com/i/14_B.svg",
+      "category": "inspiration"
+  },
+  {
+      "id": "8",
+      "name": "Darkmodedesign.com",
+      "link": "https://www.darkmodedesign.com/",
+      "img_link": "https://svgshare.com/i/14b5.svg",
+      "category": "inspiration"
+  },
+  {
+      "id": "9",
+      "name": "stacksorted",
+      "link": "https://stacksorted.com/buttons",
+      "img_link": "https://svgshare.com/i/14bR.svg",
+      "category": "inspiration"
+  },
+  {
+      "id": "10",
+      "name": "minimal gallery",
+      "link": "https://minimal.gallery/",
+      "img_link": "https://svgshare.com/i/14bb.svg",
+      "category": "inspiration"
+  },
+  {
+      "id": "11",
+      "name": "awwwards",
+      "link": "https://www.awwwards.com/",
+      "img_link": "https://svgshare.com/i/14b6.svg",
+      "category": "inspiration"
+  },
+  {
+      "id": "12",
+      "name": "tilebit",
+      "link": "https://www.tilebit.io/",
+      "img_link": "https://svgshare.com/i/14bG.svg",
+      "category": "Tool"
+  },
+  {
+      "id": "13",
+      "name": "adobe color",
+      "link": "https://color.adobe.com/create/color-wheel",
+      "img_link": "https://svgshare.com/i/14a5.svg",
+      "category": "Color"
+  },
+  {
+      "id": "14",
+      "name": "color hunt",
+      "link": "https://colorhunt.co/",
+      "img_link": "https://svgshare.com/i/14aa.svg",
+      "category": "Color"
+  },
+  {
+      "id": "15",
+      "name": "heikei",
+      "link": "https://app.haikei.app/",
+      "img_link": "https://svgshare.com/i/14bS.svg",
+      "category": "Tool"
+  },
+  {
+      "id": "16",
+      "name": "color space",
+      "link": "https://mycolor.space/",
+      "img_link": "https://svgshare.com/i/14_u.svg",
+      "category": "Color"
+  },
+  {
+      "id": "17",
+      "name": "clippy css",
+      "link": "https://bennettfeely.com/clippy/",
+      "img_link": "https://svgshare.com/i/14bn.svg",
+      "category": "Tool"
+  },
+  {
+      "id": "18",
+      "name": "Forge icons",
+      "link": "https://icons.theforgesmith.com/",
+      "img_link": "https://svgshare.com/i/14aR.svg",
+      "category": "Icons"
+  },
+  {
+      "id": "19",
+      "name": "React icons",
+      "link": "https://react-icons.github.io/react-icons/",
+      "img_link": "https://svgshare.com/i/14az.svg",
+      "category": "Icons"
+  },
+  {
+      "id": "20",
+      "name": "Bootstrap icons",
+      "link": "https://icons.getbootstrap.com/",
+      "img_link": "https://svgshare.com/i/14an.svg",
+      "category": "Icons"
+  },
+  {
+      "id": "21",
+      "name": "font awesome",
+      "link": "https://fontawesome.com/",
+      "img_link": "https://svgshare.com/i/14ao.svg",
+      "category": "Icons"
+  },
+  {
+      "id": "22",
+      "name": "durable",
+      "link": "https://durable.co/",
+      "img_link": "https://svgshare.com/i/14aS.svg",
+      "category": "AI"
+  },
+  {
+      "id": "23",
+      "name": "web gradients",
+      "link": "https://webgradients.com/",
+      "img_link": "https://svgshare.com/i/14bJ.svg",
+      "category": "Tool"
+  },
+  {
+      "id": "24",
+      "name": "daisy",
+      "link": "https://daisyui.com/",
+      "img_link": "https://svgshare.com/i/14bK.svg",
+      "category": "UI"
+  },
+  {
+      "id": "25",
+      "name": "aceternity ui",
+      "link": "https://ui.aceternity.com/",
+      "img_link": "https://svgshare.com/i/14bf.svg",
+      "category": "UI"
+  },
+  {
+      "id": "26",
+      "name": "rechart",
+      "link": "https://recharts.org/en-US/",
+      "img_link": "https://svgshare.com/i/14bL.svg",
+      "category": "UI"
+  },
+  {
+      "id": "27",
+      "name": "react awesome components",
+      "link": "https://github.com/brillout/awesome-react-components",
+      "img_link": "https://svgshare.com/i/14aq.svg",
+      "category": "UI"
+  },
+  {
+      "id": "28",
+      "name": "sweet alert",
+      "link": "https://sweetalert2.github.io/",
+      "img_link": "https://svgshare.com/i/14a7.svg",
+      "category": "UI"
+  },
+  {
+      "id": "29",
+      "name": "devdojo buttons",
+      "link": "https://devdojo.com/tailwindcss/buttons",
+      "img_link": "https://svgshare.com/i/14bg.svg",
+      "category": "UI"
+  },
+  {
+      "id": "30",
+      "name": "loading.io",
+      "link": "https://loading.io/",
+      "img_link": "https://svgshare.com/i/14by.svg",
+      "category": "UI"
+  },
+  {
+      "id": "31",
+      "name": "imgbb",
+      "link": "https://imgbb.com/",
+      "img_link": "https://svgshare.com/i/14_Z.svg",
+      "category": "hosting"
+  },
+  {
+      "id": "32",
+      "name": "svggur",
+      "link": "https://svgur.com/",
+      "img_link": "https://svgshare.com/i/14b9.svg",
+      "category": "hosting"
   }
 ]
